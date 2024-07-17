@@ -1,14 +1,19 @@
-<html>
-  <head>
-      <title>You shouldn't be here...</title>
-  </head>
-  <body>
-    <script>
-// JavaScript code to close the page after 3 seconds
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Close Page After 3 Seconds</title>
+</head>
+<body>
+
+<script>
 setTimeout(function() {
-    window.close(); // Close the current window
+    window.location.href = "about:blank"; // Redirect to a blank page
 }, 3000); // 3000 milliseconds = 3 seconds
 </script>
-    <h1>You shouldn't be here.</h1>
-  </body>
+
+<p>This page will close automatically after 3 seconds.</p>
+
+</body>
 </html>
